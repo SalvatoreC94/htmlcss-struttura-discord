@@ -7,21 +7,72 @@
 
 
 
+/*  */
 
-/* GENERAL */
+.logo,
+.link,
+.login {
+    padding: 5px
+}
+
+.logo,
+.link,
+.login,
+.jumbo,
+.blue,
+.pink,
+.green,
+.main-menu-footer,
+.logo-footer,
+button {
+    border: 1px dashed black;
+}
+
+.column {
+    border: 1px dashed white;
+}
+
+.head-bar,
+.header-bottom,
+.blue-pink,
+.grey,
+.top-footer,
+.bottom-footer {
+    padding: 40px 0px;
+}
+
+.blue-pink,
+.green,
+.top-footer-container,
+.footer-bar,
+.head-bar {
+    display: flex;
+    margin: auto;
+    width: 62.5%;
+}
 
 
+.blue {
+    width: 60%;
+}
+
+.pink {
+    width: 40%;
+}
+
+.column {
+    width: 17.5%;
+}
+
+
+.logo-footer,
+button {
+    padding: 4px;
+}
 
 
 
 /* HEADER */
-.container {
-    max-width: 100px;
-    margin: 0 auto;
-
-
-}
-
 .head-bar {
     justify-content: space-between;
     align-items: center;
@@ -48,17 +99,40 @@
     color: black;
 }
 
+.header-bottom {
+    padding: 40px 0;
+}
+
+.jumbo {
+    width: 50%;
+    margin: auto;
+}
+
 
 /* MAIN */
 
-
-
-
-
-
 /* FOOTER */
+.top-footer {
+    padding-top: 8px;
+    border-bottom: 3px solid #d7d7d8;
+}
+
+.main-menu-footer {
+    width: 30%;
+}
+
+.bottom-footer {
+    border-bottom: 1px solid #d7d7d8;
+    padding-bottom: 0px;
+}
+
+.footer-bar {
+    justify-content: space-between;
+    align-items: center;
+}
 
 /* DEBUG */
+
 .debug header {
     background-color: #add8e6;
 }
@@ -73,6 +147,67 @@
     background-color: #daa520;
 }
 
-.debug .news {
+.debug .header-bottom {
     background-color: #00008b;
+}
+
+.debug .jumbo {
+    background-color: #ee82ee;
+    height: 300px;
+}
+
+
+.debug .white {
+    background-color: white;
+}
+
+.debug .grey {
+    background-color: #d3d3d3;
+}
+
+.debug .blue,
+.debug .pink {
+    height: 450px;
+}
+
+.debug .blue {
+    background-color: #1e90ff;
+}
+
+.debug .pink {
+    background-color: #ffc0cb;
+
+}
+
+.debug .green {
+    background-color: #228b22;
+    height: 900px;
+}
+
+
+
+.debug footer {
+    background-color: #23272a;
+}
+
+.debug .main-menu-footer {
+    background-color: #f08080;
+    height: 550px;
+}
+
+
+.debug .column {
+    background-color: #20b2aa;
+    height: 550px;
+}
+
+
+.debug .footer-bar {
+    background-color: #7fffd4;
+    height: 50px;
+}
+
+.debug .logo-footer,
+.debug button {
+    background-color: #ffb8c3;
 }
