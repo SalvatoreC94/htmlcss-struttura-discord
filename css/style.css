@@ -1,5 +1,78 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+
+
+
+/* GENERAL */
+
+
+
+
+
+/* HEADER */
+.container {
+    max-width: 100px;
+    margin: 0 auto;
+
+
+}
+
+.head-bar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+}
+
+.logo,
+.login {
+    width: 20%;
+}
+
+.login {
+    text-align: right;
+}
+
+.link {
+    flex-grow: 1;
+    text-align: center;
+
+}
+
+.link a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* MAIN */
+
+
+
+
+
+
+/* FOOTER */
+
+/* DEBUG */
+.debug header {
+    background-color: #add8e6;
+}
+
+.debug .head-bar {
+    height: 50px;
+}
+
+.debug .logo,
+.debug .link,
+.debug .login {
+    background-color: #daa520;
+}
+
+.debug .news {
+    background-color: #00008b;
 }
